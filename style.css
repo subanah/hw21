@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    margin: auto;
+}
+.row{
+    display: flex;
+    
+}
+body{
+    height: 1000vh;
+    
+}
+#box{
+   
+    
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+#box .container{
+    display: flex;
+   align-items: center;
+   
+    /*background-color: brown;*/
+    
+}
+#box .box{
+    height: 200px;
+    width: 200px;
+    background-color: #CCC1CB;
+    margin-right: -247px;
+   
+}
+#box button{
+    margin: 10px;
+    padding: 10px 20px;
+    display: flex;
+   align-items: center;
+   border: 0;
+   background-color: #C0CFD4;
+   margin-top: 300px;
+}
+#inc{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     
+}
+#inc .container{
+    display: flex;
+   align-items: center;
+   
+    /*background-color: brown;*/
+    
+}
+#inc .pack{
+    height: 200px;
+    width: 200px;
+    background-color: #CCC1CB;
+   
+   
+}
+#inc  .btn{
+    display: flex;
+   align-items: center;
+   
+
+   margin-top: 70%;
+   margin-left: -50%;
+}
+#inc  .btn button{
+    margin: 10px;
+    background-color: #C0CFD4;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 0;
+    
+}
+#faq{
+   background-color: aliceblue;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+}
+#faq .container{
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+   padding: 5px;
+   margin-top: -148px;
+}
+#faq .container .qsn.active ~ .ans{
+    height: auto;
+    padding: 20px;
+    transition: 0.5s;
+}
+#faq .container .qsn{
+    background-color: #FFCCE1;
+    padding: 10px;
+}
+#faq .container .ans{
+    background-color: azure;
+    margin: 5px 0;
+    height: 0;
+    overflow: hidden;
+}
+
+
